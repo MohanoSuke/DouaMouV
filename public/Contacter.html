@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial scale=1.0">
+    <link rel="stylesheet" href="../SAE.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Contacter</title>
+</head>
+<body>
+    <header>
+        <div class="LOGO"><img src="../SOURCE/logo.png" id ="logo" alt="logo"></div>
+        <div class="nav_item">
+            <a href="Accueil.html" class="Bouton_Nav">ACCUEIL</a>
+        </div>
+        <div class="nav_item">
+            <a href="Transports.html" class="Bouton_Nav">TRANSPORTS</a>
+        </div>
+        <div class="nav_item">
+            <a href="Contacter.html" class="Bouton_Nav">CONTACTER</a>
+        </div>
+    </header>
+
+    <main id="main_contact">
+    <div id="contact">
+        <div class="gauche"> <img src="../SOURCE/douaimage1.jpg" alt="doua" id="doua_image"> 
+        </div>
+        <div class="milieu">
+            <div class="phrases">
+                <p class="probleme"> Un probleme </p>
+                <p class="probleme"> une solution </p>
+                <p class="probleme"> Contactez-nous </p>
+            </div>
+        </div>
+        <div class="droite">
+            <p class="title">NOUS CONTACTER</p>
+            <form method="post" action="https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/intro-web/_static/formproc/debug">
+                <div class="formulaire">
+
+                    <div class="groupe">
+                        <label   class="label_groupe" id="Nom">Nom</label>
+                        <input   class="input_groupe" name="Nom" type="text">
+                    </div>
+
+                    <div class="groupe">
+                        <label  class="label_groupe" id="Prenom">Prenom</label>
+                        <input  class="input_groupe" name="Prénom" type="text" >
+                    </div>
+
+                    <div class="groupe">
+                        <label class="label_groupe" id="Email">Email</label>
+                        <input  class="input_groupe" name="Email" type="email">
+                    </div>
+
+                    <div class="groupe">
+                        <label class="label_groupe" id="Sujet">Sujet</label>
+                        <input class="input_groupe" name="Sujet" type="text">
+                    </div>
+
+                    <div class="groupe">
+                        <label class="msg" id="Message">Message</label>
+                        <textarea placeholder="Saisissez votre message ici .." name="Message" ></textarea>
+                    </div>
+
+                    
+                        <button class="bouton"  type="submit">Envoyer le message</button>
+                        
+                </div>
+            </form>    
+        </div>   
+    </div>
+    </main>
+    <footer>
+
+        <div class="footer_parametres">
+            <div class="footer_text"><h3>Paramètres</h3></div>
+            <div class="footer_text">Conditions d'Utilisation</div>
+            <div class="footer_text">Politique de Confidentialité</div>
+            <div class="footer_text">Mentions Légales</div>
+            <div class="footer_text">Sécurité</div>
+            <div class="footer_text">Paramètres des cookies</div>
+        </div>
+        
+        <div class="footer_newsletters">
+            <h3 class="NewsLetters">NewsLetters</h3>
+            <form method="post" action="https://perso.liris.cnrs.fr/pierre-antoine.champin/enseignement/intro-web/_static/formproc/debug">
+                
+                <div class="new_mail">
+                    <input name="new_Email" type="email" >
+                    <button class="ok">✔</button>
+                    
+                </div>
+            </form>
+        </div>
+            
+        <div class="reseaux">
+            <h3 class="suivons-nous">Suivons-nous</h3>
+                
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer> 
+       <div id="copyright">DouaMove | <code>© Tous Droits Réservés</code> | 2023 </div>
+    
+</body>
+
+</html>
+
