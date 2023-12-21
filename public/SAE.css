@@ -1,0 +1,722 @@
+html {
+    scroll-behavior: smooth;
+    width:100vw;
+}
+
+body {
+    font-family:'Times New Roman' ;
+    margin:0px;
+}
+
+h1 {
+    font-family:'Brush Script MT' ;
+    position:absolute;      
+    font-size:15vw;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -100%);
+    color:white;
+}
+
+header {
+    display:grid ;
+    grid-template-columns : 10% auto auto auto 10% ;
+    width: 100vw ;
+    background-color : black ;
+    color : white ;
+    padding: 1% ;
+    position: fixed ;
+    top: 0;
+    z-index:9999;
+    max-height:2.5em;
+}
+
+#logo {
+    max-width:2.5em;
+}
+
+p {
+    font-size: 1.5em;
+    margin:10px;
+    max-width:50vw;
+    height:auto;
+}
+
+.Bouton_Nav {
+    background-color : black ;
+    color : white ;
+    border : none ;
+    margin:0.25em;
+    font-size:1.8em;
+    text-decoration: none;
+}
+
+.Bouton_Nav:hover {
+    color:lightgray;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+}
+
+.Decouvrir {
+    background-color:black;
+    color:white;
+    position:absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size:1.3em;
+    padding:1%;
+    border-radius:27px;
+    text-decoration: none;
+}
+
+.Decouvrir:hover {
+    background-color:rgb(160, 157, 157);
+    -webkit-transition-duration: 0.75s;
+    transition-duration:0.75s;
+}
+
+.Abonnements {
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+}
+
+#Page1_Accueil {
+    height:100vh;
+    width:100%;
+    background-image : url("../SOURCE/tram.webp") ;
+    background-position: 10%;
+    background-position-x : 30% ;   
+    background-size:cover;
+}
+
+#Page2_Accueil {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: beige;
+}
+
+#Plan_img {
+    max-width:60vw;
+    height:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#Plan {
+    background-color: beige;
+}
+
+#Page1_Transports {
+    background-image: url("../SOURCE/bus.png") ;
+    background-position-y:90%;
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    background-position-x:50%;
+}
+
+#Page2_Transports {
+    display:grid;
+}
+
+.Ligne_Tram {
+    display:grid ;
+    grid-template-columns: 2fr 1fr;
+    max-width:100vw;
+    height:auto;
+    background-color: beige;
+}
+
+.LT_gauche {
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    margin:10%;
+    align-items: center;
+    text-align: center;
+}
+
+#LT_Text {
+    text-align: center;
+}
+
+#T1 {
+    display:block;
+    margin:auto;
+    max-width: 30vw;
+    width:30vw;
+    height:auto;
+}
+
+.Bienvenue > h2 {
+    margin-top:10%;
+}
+
+#LT_droite {
+    background-image:url("./SOURCE/gaston_berger.png");
+    background-size:cover;
+    background-position-x:50%;
+    margin-top:0%;
+}
+
+#tram2 {
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    height:auto;
+}
+
+#img_tram2 {
+    max-width:50vw;
+    margin:10px;
+}
+
+
+h2 {
+    text-align:center;
+    font-size:4vw;
+}
+
+.Bienvenue {
+    height:100vh;
+}
+
+#Texte_BV {
+    margin:10%;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.PRES {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#PRES_text {
+    display:flex;
+    justify-content:center;
+    margin:auto;
+}
+
+#PRES_img {
+    display:flex;
+    justify-content:center;
+    margin:auto;
+}
+
+#tram3 {
+    margin:10px;
+    max-width:50vw;
+}
+
+section { 
+    color:#8B5639;
+    font-size:1.3em;
+}
+
+#Abonnements {
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    max-width:90vw;
+    
+}
+
+
+#bon_plan
+{
+    text-align: center;
+    color: #8B5639;
+    font-size: xx-large;
+    margin:0.5em;
+}
+
+.tableau
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    place-items: center;
+
+}
+
+
+
+thead{
+    font-size: large;
+    background-color: rgb(144, 68, 14);
+    color: rgb(255, 255, 255);
+}
+
+
+.sous
+{
+    color: rgb(203, 5, 5);
+}
+
+table, th, td{
+    border: solid rgb(181, 181, 181) 1px;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,Open Sans, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 0.7vh;
+    text-align: center;
+    width:80vw;
+}
+
+table {
+    margin:10vw;
+    max-width:80vw;
+}
+
+td{
+    text-align: center;
+    height: 5vh;
+}
+
+
+.imagepub
+{
+    width: 20vw;
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 3fr;
+    grid-template-rows: 100% ;
+    height: auto;
+
+}
+.gauche{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+}
+
+.milieu{
+    display:flex;
+    position:relative;
+    text-align: center;
+    background-color : #8B5639;
+}
+
+.phrases
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:20vw
+}
+
+.probleme
+{
+    text-align: center;
+    font-size:3vh;
+    color: whitesmoke;  
+    font-weight:bold;
+}
+
+
+
+.droite
+{
+    background-color: beige;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    place-items: center;  
+}
+
+.input_groupe
+{
+    margin-bottom: 0.5vh;
+    margin-left: 1vh;
+    padding: 1.5vh 25vh 1.5vh ;
+    border-radius: 2vh;
+    border: 0.1vh solid #c9c9c9;
+    text-align: left;
+    padding-left: 1vh;
+}
+
+
+.title
+{
+    margin-top: 20%;
+    font-size: xx-large;
+}
+
+
+textarea
+{
+    
+    margin-top: 0.3vh;
+    padding: 0.4vh;
+    padding-left: 1vh;
+    margin-left: 2vh;
+    background-color: #f1f1f1;
+    border: 0.3vh solid #8B5639;
+    outline: none;
+    border-radius: 2vh;
+    resize: none;
+    height: 20vh;
+    width: 47.5vh;
+}
+
+.formulaire
+{
+    padding:1%;
+    padding-right:5%;
+    background-color: beige;
+    border-radius: 0.5vh;
+    box-shadow: 0.8vh -0.8vh 4vh grey;     
+}
+
+.groupe
+{
+    display: flex;
+    justify-content: right;
+    margin-top: 1vh;
+    display: flex;
+    height: 100%;
+}
+
+.bouton
+{
+    justify-content: center;
+    padding: 1vh 3vh;
+    margin-top: 3vh;
+    margin-left: 35%;
+    font-size: 2vh;
+    background-color: #a0603e;
+    color: beige;
+    cursor: pointer;
+    transition: transform 0.5s;
+    border-radius: 0.5vh;
+}
+
+.bouton:hover
+{
+    transform: scale(1.05);
+}
+
+.label_groupe
+{
+    font-family: 'italic','Geneva';
+    font-size: 100%;
+    margin-right: 2%;
+    text-align: right;
+    width: 15vh;
+    padding-right: 1%;
+    margin-top: 1vh;
+}
+
+#Plan_img
+{
+    padding-bottom: 4vh;
+}
+
+
+h3 {
+    padding-bottom:3% ;
+}
+
+#doua_image {
+    max-width:40vw;
+    height:auto;
+}
+
+@media (max-width:1400px) {
+    .gauche {
+        display:none;
+    }
+
+    #contact {
+        grid-template-columns: 1fr 3fr;
+    }
+}
+
+@media (max-width:650px) {
+    [name="Nav"] {
+        font-size:4vw;
+    }
+}
+
+@media (max-width:950px) {
+    .Ligne_Tram {
+        grid-template-rows: 2fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .LT_droite {
+        max-height:10vh;
+        width:auto;
+    }
+
+    #LT_Text > p {
+        display:block;
+        text-align:center;
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+    .LT_gauche {
+        margin:0px;
+    }
+
+    #T1 {
+        max-width: 50vw;
+        width:50vw;
+    }
+
+    #contact {
+        grid-template-rows: 1fr 3fr;
+        grid-template-columns: 100%;
+        height:auto;
+    }
+
+    #Page2_Accueil {
+        display:grid;
+        grid-template-columns: 1fr;
+        height:auto;
+    }
+
+    .Bienvenue > p {
+        max-width:80vw;
+        text-align:center;
+    }
+    
+    #img_tram2 {
+        max-width:90vw;;
+    }
+
+    .Bienvenue {
+        height:auto;
+    }
+
+    .PRES {
+        grid-template-rows: 1fr 3fr ;
+        grid-template-columns: 1fr;
+        height:100vh;
+        max-height:700px;
+    }
+
+    #PRES_text > p {
+        display:block;
+        max-width:90vw;
+        text-align:center;
+    }
+
+    #tram3 {
+        max-width:90vw;;
+    }
+
+    #Plan_img {
+        max-width:90vw;
+        width: 90vw;
+    }
+}
+
+@media (max-width:650px) {
+    [name="Nav"] {
+        font-size:5vw;
+        margin:0.5%;
+    }
+
+    #logo {
+        display:none;
+    }
+
+    header {
+        grid-template-columns : 0% auto auto auto 0% ;
+    }
+    
+    #T1 {
+        max-width: 90vw;
+        width:90vw;
+    }
+
+    h2 {
+        font-size:36px;
+    }
+    .phrases{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .probleme{
+        font-size: 2vh;
+        margin: 3vh;
+        
+    }
+
+
+    .title
+    {
+        font-size: 3vh;
+        text-align: center;
+        margin: 5vh;
+    }
+
+    .formulaire
+    {
+        width: min-content;
+        justify-items: center;
+        margin-bottom: 2vh;
+        padding-left: 0vh;
+        padding-right: 0vh;
+        display: grid;
+        
+    }
+    .label_groupe
+    {
+        transform: translate(-30px,0)
+
+    }
+   
+    .input_groupe
+    {
+        
+        width: 5vh;
+        transform: translate(-20px,0)
+    }
+    textarea
+    {
+        width: 29vh;
+    }
+
+
+}
+
+
+
+
+
+/*----------------footer-----------------------*/
+footer 
+{
+    background-color : #8B5639 ;
+    color: white;
+    display: grid;
+    grid-template-columns : 1fr 1fr 1fr ;
+    width:100% ;
+    bottom: 0vh;
+    margin: 0vh ;
+    padding-top: 3vh;
+    position: relative;  
+}
+.footer_parametres 
+{
+    display: grid ;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 40% ;
+    justify-content: center;
+}
+.footer_newsletters
+{
+    display: grid ;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}    
+
+.reseaux
+{
+    display: grid ;
+    justify-content: center; 
+}
+.social_links
+{
+   margin: 5vh;
+   padding-bottom: 15vh;
+}
+.reseaux .social-links a{
+	display: inline-block;
+	width: 6vh;
+	background-color: rgba(255,255,255,0.2);
+	margin: 0 1.2vh 10vh 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.reseaux .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.suivons-nous
+{
+    margin-bottom: 2vh;
+    text-align: center;
+} 
+.NewsLetters
+{
+    align-items: center;
+    text-align: center;
+}
+input
+{
+    margin-bottom: 0.5vh;
+    margin-left: 1vh;
+    padding: 0.5vh 8vh 1vh ;
+    border-radius: 1vh;
+    border: 0.1vh solid #c9c9c9;
+    text-align: left;
+    padding-left: 1vh;
+}
+.ok
+{
+    border-radius: 1vh;
+    padding: 0.1vh 2vh 0.5vh ;
+    font-size: 2vh;
+    background-color: #403631;
+    color: beige;
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin-left: -2vh;
+    padding-bottom: 1vh;
+}
+.new_mail
+{
+    margin-bottom: 4vh;
+}
+#copyright
+{
+    text-align: center;
+    color: white;
+    background-color: #8B5639;
+}
+h3
+{
+    font-size: x-large;
+}
+/*--------------------footer---------------------*/
+/*--------------------------responsive footer---------------------------*/
+@media(max-width: 844px){
+
+    .footer_text{
+        margin-top: 1.5vh;
+        text-align: center;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+    }
+  .footer_newsletters{
+    margin-top: 3vh;
+    margin-bottom: -0.1vh;
+}
+
+
+}
+/*--------------------------responsive footer---------------------------*/
+
+
